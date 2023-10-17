@@ -1,0 +1,20 @@
+{
+  "name": "minor_project",
+  "version": "1.0.0",
+  "description": "The project is a LMS portal that helps a student explore through different study resources that the college curriculum as well as resources for some other extra study. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Minor_project"
+  ],
+  "author": "Harmehar Kaur, Dilpreet Singh, Gurveen Kaur Madaan, Balkar Singh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^7.6.2"
+  }
+}
