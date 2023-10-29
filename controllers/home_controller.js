@@ -13,3 +13,7 @@ module.exports.studystats = function(req,res){
 module.exports.subscribe = function (req,res){
     return res.render('subscribe');
 }
+
+module.exports.mainpage = function (req,res){
+    return res.render('main');
+}

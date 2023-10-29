@@ -7,4 +7,6 @@ router.get('/', homeController.home);
 router.get('/studyroom', homeController.studyroom); 
 router.get('/studystats', homeController.studystats); 
 router.get('/subscribe', homeController.subscribe);
+router.get('/mainpage', homeController.mainpage);
+
 module.exports = router;
