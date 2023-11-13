@@ -242,6 +242,22 @@ iframe:hover{
           animation: bounce 500ms alternate infinite ease;
 }
 
+.img-academics{
+  width:80%; 
+  height: 80%;
+}
+
+.header-track{
+  margin-left:3.9rem;
+}
+
+.track-list{
+  margin-top: 50rem;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 @-webkit-keyframes bounce {
   0% {
     top: 30px;

@@ -13,6 +13,15 @@ router.get('/mainpage', homeController.mainpage);
 router.get('/development', homeController.devpage);
 router.get('/interview', homeController.interview);
 router.get('/syllabus', homeController.syllabus);
+router.get('/android', homeController.android);
+router.get('/web', homeController.web);
+router.get('/ml', homeController.ml);
+router.get('/blockchain', homeController.blockchain);
+router.get('/devops', homeController.devops);
+
+
+
+
 
 
 module.exports = router;

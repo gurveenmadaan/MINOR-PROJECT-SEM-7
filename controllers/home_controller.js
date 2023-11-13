@@ -15,7 +15,7 @@ module.exports.subscribe = function (req,res){
 }
 
 module.exports.mainpage = function (req,res){
-    return res.render('main');
+    return res.render('academics');
 }
 
 module.exports.devpage = function(req,res){
@@ -29,4 +29,24 @@ module.exports.interview = function (req, res) {
 // control links on the studyroom page 
 module.exports.syllabus = function (req, res) {
     return res.render('syllabus'); 
+}
+
+module.exports.android = function (req, res) {
+    return res.render('and'); 
+}
+
+module.exports.web = function (req, res) {
+    return res.render('web'); 
+}
+
+module.exports.ml = function (req, res) {
+    return res.render('ml'); 
+}
+
+module.exports.blockchain = function (req, res) {
+    return res.render('block'); 
+}
+
+module.exports.devops = function (req, res) {
+    return res.render('devo'); 
 }

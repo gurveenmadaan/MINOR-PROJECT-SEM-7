@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acadmica</title>
+    <title>Study Atlas</title>
 
     <!-- FONTAWESOME CDN LINK -->
     <script src="https://kit.fontawesome.com/623d2ea8a9.js" crossorigin="anonymous"></script>
@@ -12,7 +12,7 @@
     <!-- BOOTSTRAP CDN LINK GOES HERE -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../../CSS/index.css">
+    <link rel="stylesheet" href="css/index.css">
 
   </head>
 <body>
@@ -24,24 +24,24 @@
 
       <div class="nav-container w-100 d-flex align-items-center justify-content-between" >
 
-        <a class="logo" href="../../../index.html">
-          @cadmica!
+        <a class="logo" href="/">
+          Study@tlas!
         </a>
 
         <div class="navbar-links">
           <ul class="center">
-            <li class="pl-3 pr-3"><a href="../../../public/studyroom.html">Study Room</a></li>
+            <li class="pl-3 pr-3"><a href="/studyroom">Study Room</a></li>
 
-            <li class="pl-3 pr-3"><a href="https://discord.gg/PmgpTMzq">Discord Server</a></li>
-            <li class="pl-3 pr-3"><a href="../../../public/503.html">Study Statistics</a></li>
+            <li class="pl-3 pr-3"><a href="https://discord.gg/PmgpTMzq" target="_blank">Discord Server</a></li>
+            <li class="pl-3 pr-3"><a href="/studystats">Study Statistics</a></li>
 
-            <li class="pl-3 pr-3"><a href="https://github.com/tier3guy/Acadmica">GitHub</a></li>
+            <li class="pl-3 pr-3"><a href="https://github.com" target="_blank">GitHub</a></li>
 
           </ul>
         </div>
 
         <div class="btn-container center">
-          <a href="../../pages/subscribe.html" class="button-primary button-all">
+          <a href="/subscribe" class="button-primary button-all">
             Subscribe Us
           </a>
         </div>
@@ -69,7 +69,11 @@
       </div>
 
       <div class="image-container">
-        <img src="https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="image" class="img-responsive dev-image">
+        <img 
+          src="https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" 
+          alt="image" 
+          class="img-academics dev-image"
+        >
       </div>
 
     </div>
@@ -80,18 +84,18 @@
     <!-- Explore tracks section -->
     <section class="tracks-section">
 
-      <h1 class="text-center">Explore different tracks in development</h1>
-      <h1 class="text-center"><span>and find your interest</span>!</h1>
+      <h1 class="header-track">Explore different tracks in development</h1>
+      <h1 class="header-track"><span>and find your interest</span>!</h1>
 
-      <div class="tracks-container mt-5 pt-5">
-        <ul class="mt-5 pt-5 w-75 m-auto">
-          <li><a href="android.html" class="center flex-column"> <i class="fa-brands fa-android"></i> <p>Android</p> </a></li>
-          <li><a href="web.html" class="center flex-column"> <i class="fa-solid fa-code"></i> <p>Web</p> </a></li>
-          <li><a href="ml.html" class="center flex-column"> <i class="fa-solid fa-robot"></i> <p>Machine Learning</p> </a></li>
+      <div class="tracks-container mt-5 pt-5 ">
+        <ul class="mt-5 pt-5 w-75 m-auto track-list">
+          <li><a href="/android" class="center flex-column"> <i class="fa-brands fa-android"></i> <p>Android</p> </a></li>
+          <li><a href="/web" class="center flex-column"> <i class="fa-solid fa-code"></i> <p>Web</p> </a></li>
+          <li><a href="/ml" class="center flex-column"> <i class="fa-solid fa-robot"></i> <p>Machine Learning</p> </a></li>
         </ul>
-        <ul class="mt-5 pt-5 w-50 m-auto">
-          <li><a href="blockchain.html" class="center flex-column"> <i class="fa-solid fa-cubes"></i> <p>Blockchain</p> </a></li>
-          <li><a href="devops.html" class="center flex-column"> <i class="fa-brands fa-connectdevelop"></i> <p>DevOps</p> </a></li>
+        <ul class="mt-5 pt-5 w-50 m-auto track-list">
+          <li><a href="/blockchain" class="center flex-column"> <i class="fa-solid fa-cubes"></i> <p>Blockchain</p> </a></li>
+          <li><a href="/devops" class="center flex-column"> <i class="fa-brands fa-connectdevelop"></i> <p>DevOps</p> </a></li>
         </ul>
       </div>
 
@@ -104,12 +108,12 @@
         <hr class="footer-divider">
         <div class="footer-row">
             <div class="footer-col-first">
-                <h2>Academica</h2>
+                <h2>Study Atlas</h2>
                 <p>Help you to study more often</p> 
                 <p>than before</p>
-                <a href="https://www.buymeacoffee.com/gavinash62D" class="buyMeCoffee-btn">
+                <a href="https://www.buymeacoffee.com/kaurharmehh" class="buyMeCoffee-btn">
                   <div class="mt-5 d-flex align-items-center">
-                    <img class="img-buy-coffee mr-3" src="../../assets/buyMeCoffeeLogo.png">
+                    <img class="img-buy-coffee mr-3" src="images/buyMeCoffeeLogo.png">
                     Help us grow more
                   </div>
                 </a>
@@ -129,20 +133,20 @@
             <div class="footer-col">
                 <h2>Product <div class="underline"><span></span></div></h2>
                 <ul>
-                    <li><a href="">Study Room</a></li>
-                    <li><a href="">Discord Server</a></li>
-                    <li><a href="">Study Statistics</a></li>
+                    <li><a href="/studyroom">Study Room</a></li>
+                    <li><a href="https://discord.gg/ZkHXnxhda7" target="_blank">Discord Server</a></li>
+                    <li><a href="/studystats">Study Statistics</a></li>
                 </ul>
             </div>
             <div class="footer-col-fourth">
               <div class="btn-container center">
-                <a href="../../pages/subscribe.html" class="button-primary button-all" type="button">Subscribe Us</a>
+                <a href="/subscribe" class="button-primary button-all" type="button">Subscribe Us</a>
               </div>
             </div>
         </div>
         <div class="footer-row2">
           <div class="footer-col">
-            <p>2022@cademica Inc. Copyright and All rights reserved.</p>
+            <p>2023Study@tlas Inc. Copyright and All rights reserved.</p>
           </div>
           <div class="footer-col">
             <p>Terms and Condition . Privacy Policy</p>
@@ -152,6 +156,6 @@
     </section>
 
 
-    <script src="../../JS/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
