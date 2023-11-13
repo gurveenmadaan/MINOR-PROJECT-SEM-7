@@ -17,3 +17,16 @@ module.exports.subscribe = function (req,res){
 module.exports.mainpage = function (req,res){
     return res.render('main');
 }
+
+module.exports.devpage = function(req,res){
+    return res.render('dev_home'); 
+}
+
+module.exports.interview = function (req, res) {
+    return res.render('interview'); 
+}
+
+// control links on the studyroom page 
+module.exports.syllabus = function (req, res) {
+    return res.render('syllabus'); 
+}
