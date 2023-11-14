@@ -13,20 +13,24 @@
 @import url('./academics/syllabus.css');
 @import url('./interview/main.css');
 
-html::-webkit-scrollbar{
-  width: 0.7vw;
+html::-webkit-scrollbar{ /*bottom right corner where horizontal and vertical scrollbars meet*/
+  width: 0.8vw;
 }
 
-*{
+*{ 
+  /*on all elements, minimal space*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 :root{
+  /*root element normal mode*/
   --primary-color: #edf2fc;
   --secondary-color: #212121;
 }
+
+/*dark mode theme*/
 .dark-mode{
   --primary-color: #000106;
   --secondary-color: #fff;
@@ -209,6 +213,7 @@ iframe:hover{
   background-color: white;
 }
 
+/*animate in from the right when loaded*/
 .loading{
   position: relative;
 }
@@ -221,13 +226,14 @@ iframe:hover{
   font-size: 3em;
   font-family: var(--font-barlow);
 }
-
+/*CSS animations to create a bouncing effect on an element */
 .bounceball {
   position: relative;
   display: inline-block;
   height: 37px;
   width: 15px;
 }
+
 .bounceball:before {
   position: absolute;
   content: "";
@@ -240,6 +246,10 @@ iframe:hover{
   transform-origin: 50%;
   -webkit-animation: bounce 500ms alternate infinite ease;
           animation: bounce 500ms alternate infinite ease;
+  /*animation - bounce - duration of 500ms
+  "alternate" - switch direction after each iteration
+  "infinite" - it will repeat forever
+  "ease" - timing function - start slowly, speed up middle, and slow down end.*/
 }
 
 .img-academics{
@@ -258,7 +268,9 @@ iframe:hover{
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 @-webkit-keyframes bounce {
+  /* % = at different points during animation duration*/
   0% {
     top: 30px;
     height: 5px;
