@@ -1,3 +1,4 @@
+//pages rendered - functions defined - links directed 
 module.exports.home = function(req, res){
     return res.render('index'); 
 }
