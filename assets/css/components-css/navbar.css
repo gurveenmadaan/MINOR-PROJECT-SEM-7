@@ -5,7 +5,7 @@ nav {
 }
 
 nav > .nav-container {
-  padding: 0 1.2em;
+  padding: 0 1.0em;
 }
 
 nav > .nav-links > ul > li {
@@ -22,7 +22,7 @@ nav > .nav-links > ul > li:hover {
   display: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   #responsive-nav {
     display: block;
     position: fixed;
@@ -38,7 +38,7 @@ nav > .nav-links > ul > li:hover {
   }
   .res-nav-row {
     margin-bottom: 0 !important;
-    width: 100% !important;
+    width: 80% !important;
     border: none !important;
   }
   .nav-items-response {
@@ -48,7 +48,7 @@ nav > .nav-links > ul > li:hover {
   .nav-items-response > li {
     margin: 1em 0;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.0em;
     color: var(--steel-gray);
   }
   #nav {
