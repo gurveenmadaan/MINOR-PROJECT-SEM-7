@@ -1,7 +1,7 @@
 .subscribe-form-container{
   padding-top: 15em;
-  font-family: var(--font-barlow);
-  color : var(--dark-blue);
+  font-family: var(--font-opensans);
+  color : var(--steel-gray);
 }
 
 .form{
@@ -12,7 +12,7 @@
 }
 
 .form-input{
-  color : var(--blue);
+  color : var(--slate-gray);
   width: 100%;
   font-family: var(--font-roboto);
   margin: 2em auto;
@@ -21,7 +21,7 @@
   background: transparent;
   border: none;
   outline: none;
-  border-bottom: 2px solid var(--blue);
+  border-bottom: 2px solid var(--slate-gray);
 }
 
 
@@ -33,7 +33,7 @@
 
 #backbtn{
   background: transparent;
-  color: var(--blue);
+  color: var(--slate-gray);
   width: fit-content;
   padding-bottom: 10px;
   text-align: center;
@@ -43,5 +43,5 @@
 }
 
 #backbtn:hover{
-  border-bottom: 1px dashed var(--blue);
+  border-bottom: 1px dashed var(--slate-gray);
 }
