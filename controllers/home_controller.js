@@ -12,11 +12,15 @@ module.exports.meetingroom = function(req,res){
 }
 
 module.exports.wellness = function(req,res){
-    return res.render('wellness'); 
+    return res.render('wellness',{
+        title:'SoulQuoτient | Wellness Statistics'
+    }); 
 }
 
 module.exports.subscribe = function (req,res){
-    return res.render('subscribe');
+    return res.render('subscribe',{
+        title:'Join us'
+    });
 }
 
 module.exports.mainpage = function (req,res){
@@ -28,7 +32,7 @@ module.exports.mindfuliving = function(req,res){
 }
 
 module.exports.connection = function (req, res) {
-    return res.render('interview'); 
+    return res.render('connection'); 
 }
 
 // control links on the studyroom page 
