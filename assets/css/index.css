@@ -134,7 +134,7 @@ li{
 
 .button-primary{
   background: var(--slate-gray);
-  color: var(--gray);
+  color: var(--light-gray);
 }
 
 .button-primary:hover{
@@ -218,7 +218,7 @@ iframe:hover{
 }
 
 .content{
-  color: var(--slate-gray);
+  color: var(--charcoal-gray);
   display: inline-block;
   margin-left: 15px;
   font-weight: 500;

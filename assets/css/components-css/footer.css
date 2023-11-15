@@ -2,7 +2,7 @@ footer {
   width: 100vw;
   position: relative;
   bottom: 0;
-  color: var(--steel-gray);
+  color: var(--light-gray);
   line-height: 10px;
   font-size: 1.0em;
   font-family: var(--font-roboto);
