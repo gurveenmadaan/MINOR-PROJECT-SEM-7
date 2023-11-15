@@ -27,7 +27,7 @@ nav > .nav-links > ul > li:hover {
     display: block;
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 80vw;
     padding: 0;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
   }
