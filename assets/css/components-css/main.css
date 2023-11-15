@@ -10,18 +10,18 @@
   width: 35%;
   position: absolute;
   left: 0;
-  font-family: var(--font-barlow);
-  color : var(--dark-blue);
+  font-family: var(--font-opensans);
+  color : var(--steel-gray);
   
 }
 
 .text-container .title{
-  color: var(--blue);
+  color: var(--slate-gray);
   font-size: 3em;
 }
 
 .text-container .exclaimation{
-  color: var(--blue);
+  color: var(--slate-gray);
 }
 
 
@@ -42,14 +42,14 @@
 
 .fa-discord{
   font-size: 1.1em;
-  color: var(--blue);
+  color: var(--slate-gray);
   padding-right: 12px;
 }
 
 .studyroom-container{
   width: 90%;
   min-height: 100vh;
-  font-family: var(--font-barlow);
+  font-family: var(--font-opensans);
   padding-top: 10em;
 }
 
@@ -62,7 +62,7 @@
 .sr-img{
   position: absolute;
   border-radius: 10px;
-  box-shadow: rgba(99, 99, 99, 0.61) 0px 2px 5px 0px;
+  box-shadow: rgba(102, 102, 102, 0.61) 0px 2px 5px 0px;
   width: 20em;
   height: 13em;
   object-fit: cover;
@@ -96,27 +96,27 @@
   font-size: 3.5em;
 }
 .text-container-studyroom span{
-  color: var(--blue);
+  color: var(--slate-gray);
 }
 
 .room-main{
-  font-size: 1.1em;
+  font-size: 1.0em;
   margin-top: 5em;
 }
 
 .room-main span{
-  color: var(--blue);
+  color: var(--slate-gray);
 }
 
 .room-main h1{
-  color: var(--dark-blue);
-  padding-bottom: 12px;
+  color: var(--steel-gray);
+  padding-bottom: 10px;
   transition: all 0.1s;
   width: fit-content;
 }
 
 .room-main a h1:hover{
-  border-bottom: 2px dashed var(--blue);
+  border-bottom: 2px dashed var(--slate-gray);
 }
 
 .img-buy-coffee{
