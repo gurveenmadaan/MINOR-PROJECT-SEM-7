@@ -1,16 +1,18 @@
 //pages rendered - functions defined - links directed 
 module.exports.home = function(req, res){
     return res.render('index',{
-        title:"SoulQuoτient |Home Page"
+        title:"SoulQuoτient | Home Page"
     }); 
 }
 
 module.exports.meetingroom = function(req,res){
-    return res.render('meetingroom'); 
+    return res.render('meetingroom',{
+        title:'SoulQuoτient | Meeting Room'
+    }); 
 }
 
-module.exports.wellnessstats = function(req,res){
-    return res.render('wellnessstats'); 
+module.exports.wellness = function(req,res){
+    return res.render('wellness'); 
 }
 
 module.exports.subscribe = function (req,res){
@@ -30,20 +32,20 @@ module.exports.connection = function (req, res) {
 }
 
 // control links on the studyroom page 
-module.exports.syllabus = function (req, res) {
+module.exports.wellnessresources = function (req, res) {
     return res.render('syllabus'); 
 }
 
-module.exports.android = function (req, res) {
-    return res.render('and'); 
+module.exports.meditation = function (req, res) {
+    return res.render('meditation'); 
 }
 
-module.exports.web = function (req, res) {
-    return res.render('web'); 
+module.exports.yoga = function (req, res) {
+    return res.render('yoga'); 
 }
 
-module.exports.ml = function (req, res) {
-    return res.render('ml'); 
+module.exports.manifestation = function (req, res) {
+    return res.render('manifestation'); 
 }
 
 module.exports.blockchain = function (req, res) {

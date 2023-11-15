@@ -7,15 +7,18 @@ const homeController = require('../controllers/home_controller');
 
 router.get('/', homeController.home); 
 router.get('/meetingroom',homeController.meetingroom); 
-router.get('//wellnessstats', homeController.wellnessstats); 
+router.get('/wellness', homeController.wellness); 
 router.get('/subscribe', homeController.subscribe);
 router.get('/mainpage', homeController.mainpage);
 router.get('/mindfuliving', homeController.mindfuliving);
 router.get('/connection', homeController.connection);
-router.get('/syllabus', homeController.syllabus);
-router.get('/android', homeController.android);
-router.get('/web', homeController.web);
-router.get('/ml', homeController.ml);
+router.get('/wellness-resources', homeController.wellnessresources);
+router.get('/meditation', homeController.meditation);
+router.get('/yoga', homeController.yoga);
+router.get('/manifestation', homeController.manifestation);
+
+
+//to be updated 
 router.get('/blockchain', homeController.blockchain);
 router.get('/devops', homeController.devops);
 
