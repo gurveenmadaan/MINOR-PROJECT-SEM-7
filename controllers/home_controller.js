@@ -1,14 +1,16 @@
 //pages rendered - functions defined - links directed 
 module.exports.home = function(req, res){
-    return res.render('index'); 
+    return res.render('index',{
+        title:"SoulQuoτient |Home Page"
+    }); 
 }
 
-module.exports.studyroom = function(req,res){
-    return res.render('studyroom'); 
+module.exports.meetingroom = function(req,res){
+    return res.render('meetingroom'); 
 }
 
-module.exports.studystats = function(req,res){
-    return res.render('studystats'); 
+module.exports.wellnessstats = function(req,res){
+    return res.render('wellnessstats'); 
 }
 
 module.exports.subscribe = function (req,res){
@@ -19,11 +21,11 @@ module.exports.mainpage = function (req,res){
     return res.render('academics');
 }
 
-module.exports.devpage = function(req,res){
-    return res.render('dev_home'); 
+module.exports.mindfuliving = function(req,res){
+    return res.render('mindfuliving'); 
 }
 
-module.exports.interview = function (req, res) {
+module.exports.connection = function (req, res) {
     return res.render('interview'); 
 }
 

@@ -6,12 +6,12 @@ const homeController = require('../controllers/home_controller');
 
 
 router.get('/', homeController.home); 
-router.get('/studyroom',homeController.studyroom); 
-router.get('/studystats', homeController.studystats); 
+router.get('/meetingroom',homeController.meetingroom); 
+router.get('//wellnessstats', homeController.wellnessstats); 
 router.get('/subscribe', homeController.subscribe);
 router.get('/mainpage', homeController.mainpage);
-router.get('/development', homeController.devpage);
-router.get('/interview', homeController.interview);
+router.get('/mindfuliving', homeController.mindfuliving);
+router.get('/connection', homeController.connection);
 router.get('/syllabus', homeController.syllabus);
 router.get('/android', homeController.android);
 router.get('/web', homeController.web);

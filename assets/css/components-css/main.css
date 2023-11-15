@@ -1,5 +1,6 @@
 .main-container{
   width: 90vw;
+  /* height: 30rem; */
   min-height : 100vh;
   margin: 0 auto;
   position: relative;
@@ -17,7 +18,8 @@
 
 .text-container .title{
   color: var(--slate-gray);
-  font-size: 3em;
+  font-size: 2.4em;
+  padding: 0; 
 }
 
 .text-container .exclaimation{
