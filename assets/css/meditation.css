@@ -1,0 +1,23 @@
+
+.heading-container{
+    width: 100%;
+    align-items: center;
+}
+
+.heading{
+    text-align: center;
+    left:30rem; 
+}
+
+.image-meditation{
+    width: 50%;
+    height: auto;
+    border-radius:50% ;
+    margin:10rem; 
+}
+
+.blog-content{
+    text-align: center;
+    margin-top:4.5rem;
+
+}
