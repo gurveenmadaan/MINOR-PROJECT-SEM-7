@@ -85,9 +85,18 @@
 
 
 .dsa{
-  right: 0;
+  left: 65%;
   bottom: 0;
-  z-index: 3;
+  top: 26%;
+  z-index: 2;
+}
+
+.new {
+  /* Add styling for the new image */
+  /* Adjust the positioning and z-index as needed */
+  left: 35%;
+  top: 50%;
+  z-index: 2;
 }
 
 .text-container-studyroom{
