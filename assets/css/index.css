@@ -16,6 +16,9 @@ html::-webkit-scrollbar{ /*bottom right corner where horizontal and vertical scr
   width: 0.5vw;
 }
 
+element.style {
+  font-size: 20px;
+}
 *{ 
   /*on all elements, minimal space*/
   margin: 0;
@@ -89,6 +92,7 @@ html::-webkit-scrollbar-track{
 body, a{
   color: var(--charcoal-gray);
   font-family: var(--font-roboto);
+  font-size: 20px;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -107,7 +111,7 @@ body, a{
 
 .logo{
   font-family: var(--font-opensans);
-  font-size: 1.8em;
+  font-size: 2.0em;
   color : var(--steel-gray);
 }
 
