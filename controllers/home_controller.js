@@ -1,3 +1,9 @@
+module.exports.homepage = function(req,res){
+    return res.render('home',{
+        title:'SoulQuoτient | Home Page'
+    }); 
+}
+
 //pages rendered - functions defined - links directed 
 module.exports.home = function(req, res){
     return res.render('index',{
