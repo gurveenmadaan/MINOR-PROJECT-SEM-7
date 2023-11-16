@@ -20,11 +20,11 @@
 }
 
 .facilities-row .mt-1 {
-  background: #b8b8b8;
+  background: #525252;
   border-radius: 2px;
   box-shadow: #848484 0 10px 20px -10px;
   box-sizing: border-box;
-  color: #949494;
+  color: #ffffff;
   cursor: pointer;
   font-family: Arial, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;    font-size: 16px;
   font-weight: 500;
