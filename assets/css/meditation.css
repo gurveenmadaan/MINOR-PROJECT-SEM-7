@@ -2,11 +2,12 @@
 .heading-container{
     width: 100%;
     align-items: center;
+    margin-top:2rem;
 }
 
 .heading{
     text-align: center;
-    left:30rem; 
+    /* left:30rem;  */
 }
 
 .image-meditation{
