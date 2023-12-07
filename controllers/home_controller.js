@@ -29,8 +29,8 @@ module.exports.subscribe = function (req,res){
     });
 }
 
-module.exports.mainpage = function (req,res){
-    return res.render('academics');
+module.exports.about = function (req,res){
+    return res.render('about');
 }
 
 module.exports.mindfuliving = function(req,res){

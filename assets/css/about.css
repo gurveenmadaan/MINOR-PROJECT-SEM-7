@@ -1,0 +1,15 @@
+h6,.sub-pt{
+    margin-left: 5rem;
+}
+
+.welcome{
+    font-size: 1.5rem;
+}
+
+.blog-content{
+    margin:5rem; 
+}
+
+.blog-content:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+}

@@ -9,7 +9,7 @@ router.get('/', homeController.home);
 router.get('/meetingroom',homeController.meetingroom); 
 router.get('/wellness', homeController.wellness); 
 router.get('/subscribe', homeController.subscribe);
-router.get('/mainpage', homeController.mainpage);
+router.get('/about', homeController.about);
 router.get('/mindfuliving', homeController.mindfuliving);
 router.get('/connection', homeController.connection);
 router.get('/wellness-resources', homeController.wellnessresources);
