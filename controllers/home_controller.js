@@ -51,7 +51,7 @@ module.exports.meditation = function (req, res) {
 }
 
 module.exports.yoga = function (req, res) {
-    return res.render('yoga'); 
+    return res.render('yoga2'); 
 }
 
 module.exports.manifestation = function (req, res) {

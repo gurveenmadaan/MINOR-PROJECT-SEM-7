@@ -1,8 +1,12 @@
+body {
+  background-color: #eafaf1; /* Light Green */
+}
+
 
 .heading-container{
     width: 100%;
     align-items: center;
-    margin-top:2rem;
+    margin-top:0.5rem;
 }
 
 .heading{
@@ -16,9 +20,34 @@
     border-radius:50% ;
     margin:10rem; 
 }
+  
+.blog-content {
+  background-color: #d4f5e3; /* Light Greenish Shade for the Card */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  /* margin-bottom: 20px; */
+  margin: 20px 0px;
+}
 
-.blog-content{
-    text-align: center;
-    margin-top:4.5rem;
+.blog-content h3 {
+  color: #333;
+}
 
+.blog-content p {
+  color: #666;
+}
+
+.blog-content a {
+  /* color: #007bff; */
+  text-decoration: none;
+}
+
+.blog-content a:hover {
+  text-decoration: underline;
+}
+
+#nav-background{
+  background-color: #eafaf1; /* Light Green */
 }

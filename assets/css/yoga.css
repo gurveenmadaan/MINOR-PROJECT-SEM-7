@@ -1,69 +1,22 @@
-body {
-    background-color: #f5f5dc; /* Light cream color */
-  }
-.text-container-wellnessroom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 50%;
-    height: 0; /* Adjust the height as needed for your layout */
-    padding-left: 5%; /* Adjust the left padding as needed */
-    margin-top: 2rem;
-    margin-bottom: 5%;
-  }
-  
-  .text-container-wellnessroom h1 {
-    margin: 0; /* Remove default margin for h1 */
-    margin-bottom: 1rem;
-  }
-  
-  .text-container-wellnessroom span {
-    color: red; /* Specify the color for the span text */
-  }
-  
-  .icon-container {
-    margin-top: 1.5rem; /* Adjust the top margin as needed */
-  }
-  
-  .icon-container div {
-    font-size: 30%; /* Adjust the font size of the arrow icon */
-  }
-  
-  
-  .room-main {
-    display: flex;
-    flex-direction: column; /* Arrange children vertically */
-    align-items: center; /* Center horizontally */
-    text-align: center; /* Center the text within the container */
+.yoga-top{
+  margin: 0; 
+}
+.yoga-top-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0; 
 }
 
-.room-main section {
-    max-width: 900px; /* Adjust the maximum width of the section as needed */
-    margin: 0 auto; /* Center the section horizontally */
+.left-image{
+  width: 50%;
+  height: auto;
+  margin-right:20px;
+  left:10; 
 }
 
-.room-main h1 {
-    margin-top: 2rem; /* Adjust the top margin for the h1 as needed */
-    margin-bottom: 2rem; /* Adjust the bottom margin for the h1 as needed */
-}
-
-.room-main h2 {
-    margin-bottom: 1rem; /* Adjust the bottom margin for the h2 as needed */
-}
-
-.room-main article {
-    margin-bottom: 2rem; /* Adjust the bottom margin for articles as needed */
-}
-
-/* Center the link within the h1 tag */
-.room-main h1 a {
-    display: inline-block;
-    color: inherit; /* Inherit the link color from the parent */
-    text-decoration: none;
-}
-
-/* Style the span within the h1 tag */
-.room-main h1 span {
-    font-weight: bold; /* Add bold font weight to the span */
+.right-content{
+  width:50%; 
+  padding: 20px; 
 }
