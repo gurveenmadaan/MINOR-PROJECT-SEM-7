@@ -1,0 +1,68 @@
+.blog-head{
+    font-size: 1.8rem;
+}
+
+.blog-head-2{
+    font-size: 1.4rem;
+}
+
+.content{
+    font-size: 1rem; 
+}
+
+.content-blog{
+    margin:1rem; 
+    margin-top: 0;
+}
+
+/* ... (Previous CSS content) */
+
+.room-main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content-blog {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.content-blog h4 {
+  color: #333; /* Adjust the color as needed */
+}
+
+/* Gradient for the heading of the blog */
+.blog-head {
+  background: linear-gradient(45deg, #ffcc00, #ff6699); /* Adjust the colors as needed */
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline;
+}
+
+/* ... (Remaining CSS content) */
+/* ... (Previous CSS content) */
+
+.room-main {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .content-blog {
+    text-align: center;
+    margin: 1em; /* Adjust the margin as needed */
+  }
+  
+  .content-blog h4 {
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  /* Gradient for the heading of the blog */
+  .blog-head {
+    background: linear-gradient(45deg, #ffcc00, #ff6699); /* Adjust the colors as needed */
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline;
+  }
+  
+  /* ... (Remaining CSS content) */
+  
