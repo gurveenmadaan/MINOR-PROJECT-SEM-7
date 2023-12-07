@@ -7,8 +7,8 @@
 }
 
 .text-container{
-  margin-top: 10em;
-  width: 35%;
+  margin-top: 7em;
+  width: 50%;
   position: absolute;
   left: 0;
   font-family: var(--font-opensans);
@@ -18,7 +18,7 @@
 
 .text-container .title{
   color: var(--slate-gray);
-  font-size: 2.4em;
+  font-size: 1.6em;
   padding: 0; 
 }
 
@@ -28,7 +28,7 @@
 
 
 .image-container{
-  width: 60%;
+  width: 50%;
   position: absolute;
   right: 0;
   left: 65%;
@@ -36,8 +36,8 @@
 }
 
 .img-responsive{
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
   object-fit: cover;
   border-radius: 10px;
 }

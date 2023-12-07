@@ -92,9 +92,10 @@ html::-webkit-scrollbar-track{
 body, a{
   color: var(--charcoal-gray);
   font-family: var(--font-roboto);
-  font-size: 20px;
+  font-size: 0.9em;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background-color: #eafaf1;
 }
 
 .center{
@@ -213,7 +214,7 @@ iframe:hover{
   justify-content: center;
   height: 100%;
   width: 100%;
-  background-color: white;
+  background-color: #eafaf1;
 }
 
 /*animate in from the right when loaded*/

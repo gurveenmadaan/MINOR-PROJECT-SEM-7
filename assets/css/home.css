@@ -1,0 +1,23 @@
+.p-4 {
+    padding: 1em!important;
+}
+
+.card {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform .2s; /* Animation */
+    background-color: #eafaf1; /* Light Green */    
+}
+  
+.text-home{
+    font-size: 20px;
+}
+.card:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.but-mainpage{
+    margin: 5rem; 
+}
