@@ -6,7 +6,7 @@ body {
 .heading-container{
     width: 100%;
     align-items: center;
-    margin-top:0.5rem;
+    margin-top:0;
 }
 
 .heading{
@@ -27,8 +27,12 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  /* margin-bottom: 20px; */
   margin: 5rem;
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.blog-content:hover {
+  transform: scale(1.05); /* Enlarge the card on hover */
 }
 
 .blog-content h3 {
