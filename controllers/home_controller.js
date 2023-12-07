@@ -25,7 +25,8 @@ module.exports.wellness = function(req,res){
 
 module.exports.subscribe = function (req,res){
     return res.render('subscribe',{
-        title:'Join us'
+        title:'Join us', 
+        message: 'Subscribe to us'
     });
 }
 
@@ -38,7 +39,10 @@ module.exports.mindfuliving = function(req,res){
 }
 
 module.exports.connection = function (req, res) {
-    return res.render('connection'); 
+    return res.render('subscribe',{
+        title: 'Connect With us', 
+        message:"Let's Connect"
+    }); 
 }
 
 // control links on the studyroom page 

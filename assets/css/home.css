@@ -2,6 +2,10 @@
     padding: 1em!important;
 }
 
+.heading-title{
+    /* padding: 2em; */
+    margin: 2rem;
+}
 .card {
     border: none;
     display: flex;
