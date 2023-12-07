@@ -21,7 +21,7 @@
   }
   
   .text-container-ml {
-    margin-top: 2em; /* Adjust the margin as needed */
+    margin-top: 1rem; /* Adjust the margin as needed */
     width: 100%; /* Adjust the width as needed */
     font-family: var(--font-opensans);
     color: var(--steel-gray);
@@ -64,14 +64,14 @@
 
 .section-heading {
     color: #333; /* Heading color */
-    background-color: #ffa07a; /* Background color for headings */
+    background-color: #7bed9f; /* Background color for headings */
     padding: 10px;
     border-radius: 5px;
     display: inline-block;
 }
 
 .sub-heading {
-    color: #ff69b4; /* Sub-heading color */
+    color: #043f05; /* Sub-heading color */
 }
   
   
