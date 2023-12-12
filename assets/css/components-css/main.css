@@ -1,8 +1,5 @@
 .main-container{
-  width: 90vw;
-  /* height: 30rem; */
-  min-height : 100vh;
-  margin: 0 auto;
+  margin: relative;
   position: relative;
 }
 
