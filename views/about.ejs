@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Soul Quotient</title>
+    <title>
+      Soul Quotient
+    </title>
 
     <link rel="shortcut icon" href="images/about.jpg" type="image/x-icon">
 
@@ -17,100 +19,265 @@
     <!-- BOOTSTRAP CDN LINK GOES HERE -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Tl8B8jO8YKI9dOxl6IuPSn3OpF9x/2fnYP1JSS6NMIIfXFe6T5r5SWNlphb1A5L"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
       crossorigin="anonymous"
     />
 
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/meditation.css" />
-  </head>
 
+
+  </head>
   <body>
+    
     <!-- Navbar starts here -->
     <div class="main-content">
-      <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">SoulQuoτient!</a>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link" href="/meetingroom">Meeting Room</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://discord.gg/ZkHXnxhda7" target="__blank">Discord Server</a></li>
-              <li class="nav-item"><a class="nav-link" href="/wellness">Wellness Statistics</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://youtube.com/" target="_blank">YouTube</a></li>
-            </ul>
-
-            <a
-              href="/subscribe"
-              class="btn btn-primary ml-3"
-              style="color: white"
-            >
-              Join Us
-            </a>
-          </div>
+    <nav id="nav" class="center p-4 w-100">
+      <div
+        class="nav-container w-100 d-flex align-items-center justify-content-between"
+      >
+        <a class="logo" href="/"> SoulQuoτient! </a>
+        
+        <div class="nav-links">
+          <ul class="space-between">
+            <li class="pl-3 pr-3"><a href="/meetingroom">Meeting Room</a></li>
+            <li class="pl-3 pr-3">
+              <a href="https://discord.gg/ZkHXnxhda7" target="__blank">Discord Server</a>
+            </li>
+            <li class="pl-3 pr-3"><a href="/wellness">Wellness Statistics</a></li>
+            <li class="pl-3 pr-3"><a href="https://youtube.com/" target="_blank">You Tube</a></li>
+          </ul>
         </div>
-      </nav>
 
-      <!-- Main hero page starts here -->
-      <div class="main-container container">
-        <div class="row">
-          <div class="col-md-6">
-            <h1><span class="welcome">Welcome To SoulQuoτient!</span></h1>
-            <!-- Add other text content here -->
-          </div>
+        <div class="btn-container center">
+          <a
+            href="/subscribe"
+            class="button-primary button-all"
+            style="color: white"
+          >
+            Join Us
+          </a>
+        </div>
+      </div>
+    </nav>
 
-          <div class="col-md-6">
-            <img
-              src="images/about.jpg"
-              alt="image"
-              class="img-fluid"
-            />
+    <nav id="responsive-nav">
+      <div class="faq-box">
+        <div class="faq-row res-nav-row">
+          <button class="faq-btn">
+            <a class="logo" href="#"> SoulQuoτient! </a>
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="faq-content responsive-nav-content">
+            <ul class="nav-items-response">
+              <li><a href="/studyroom">Meeting Room</a></li>
+              <li><a href="https://discord.gg/ZkHXnxhda7" target="_blank">Discord Server</a></li>
+              <li><a href="/studystats">Wellness Statistics</a></li>
+              <li><a href="https://youtube.com" target="_blank">You Tube</a></li>
+            </ul>
           </div>
         </div>
       </div>
-      <!-- Main hero page ends here -->
+    </nav>
+    <!-- Navbar ends here -->
 
-      <!-- About SoulQuoτient   -->
-      <section class="vision container">
-        <!-- Add your content here -->
-      </section>
+    <!-- Main hero page starts here -->
+    <div class="main-container">
+      <div class="text-container">
+        <h1><span class="welcome">Welcome To SoulQuoτient!</span></h1>
+        
 
-      <!-- What We Offer Section -->
-      <section class="container">
-        <h2>What We Offer</h2>
-
-        <!-- Add your offer content here using Bootstrap grid system -->
-      </section>
-
-      <!-- FAQ Section starts here -->
-
-      <!-- Footer starts here -->
-      <section class="footer">
-        <!-- Add your footer content here using Bootstrap grid system -->
-      </section>
+        <p class="mt-2 text-home">
+          At SoulQuoτient, our commitment goes beyond mere well-being; we envision a profound shift in the 
+          way individuals experience life. In the midst of the modern hustle and bustle, where the demands of 
+          everyday life can be overwhelming, we stand as a beacon of tranquility and support.
+          <br>
+          <br>
+          Holistic well-being is not just a concept to us; it's a way of life. We understand that true wellness 
+          encompasses more than just physical health. It involves the harmonious integration of the body, mind, and 
+          soul. Our mission is to empower you with the knowledge and tools to embark on a holistic journey that 
+          transcends the conventional boundaries of health.
+          <br>
+          <br>
+          In this sacred digital space, we curate not only practical resources but also a sense of community. Here, 
+          you'll find a supportive network of like-minded individuals, all united by a common goal-the pursuit of a 
+          balanced and fulfilling life. Whether you're seeking solace in meditation, exploring the transformative 
+          power of manifestation, or enhancing your physical well-being through yoga,SoulQuoτient is your 
+          all-encompassing guide.
+          <br>
+          <br>
+        </p>
+      </div>
+  
+      <div class="image-container">
+        <img
+          src="images/about.jpg"
+          alt="image"
+          class="img-responsive"
+        />
+      </div>
     </div>
+    <!-- Main hero page ends here -->
 
+    <!-- About SoulQuoτient   -->
+    <section class="vision">
+      <h2 class="heading">More About Us</h2>
+
+      <article class="blog-content">
+        <h3>Our Vision</h3>
+        <p>
+          At the heart of our vision is the commitment to spreading awareness about meditation, manifestation, yoga,
+          and the essential practices that contribute to a healthy and balanced life. We envision a world where 
+          individuals are empowered to take charge of their well-being, cultivating a sense of peace and fulfillment 
+          amidst life's complexities.
+        </p>
+      </article>
+
+      <article class="blog-content">
+        <h3>Holistic Wellness, All in One Place</h3>
+        <p>
+          SoulQuoτient is not just a website; it's a haven where you can explore and access a comprehensive range 
+          of resources to support your wellness journey. Whether you're a seasoned practitioner or a newcomer to 
+          the world of holistic health, our platform is designed to be a one-stop destination for all your needs.
+        </p>
+      </article>
+
+      <article class="blog-content">
+        <h3>Our Commitment to You</h3>
+        <p>
+          At SoulQuoτient, we are committed to fostering a supportive community where individuals from all walks of 
+          life can come together to learn, share, and grow. Our team of experts, passionate about holistic wellness,
+          is dedicated to curating content that is informative, inspiring, and accessible.
+        </p>
+      </article>
+
+      <article class="blog-content">
+        <h3>Discover a Holistic Haven</h3>
+        <p>
+            At SoulQuoτient, we extend an invitation to a sanctuary, not just a website. It's a space where you can delve into a comprehensive array of resources, fostering and supporting your journey toward holistic well-being. Whether you're well-versed in these practices or taking your first steps into the world of holistic health, our platform is meticulously crafted to be your singular destination for all-encompassing support.
+        </p>
+    </article>
+    
+    <section class="blog-content">
+        <h2>What We Offer</h2>
+    
+        <div class="offer">
+            <h6>1. Meditation Guidance</h6>
+            <p class="sub-pt">Immerse yourself in the transformative practice of meditation with our expertly crafted guided sessions. Explore various techniques from mindfulness to transcendental meditation, and discover the approach that resonates with your unique journey.</p>
+        </div>
+    
+        <div class="offer">
+            <h6>2. Manifestation Wisdom</h6>
+            <p class="sub-pt">Unlock the power of manifestation and learn to align your thoughts and energy to create the life you desire. Our platform provides curated content and expert insights to empower you on the path of manifesting positive change in your life.</p>
+        </div>
+    
+        <div class="offer">
+            <h6>3. Yoga for Every Body</h6>
+            <p class="sub-pt">Whether you're a beginner or an experienced yogi, our platform caters to all levels. Choose from a variety of yoga practices, ranging from gentle flows to challenging poses, and find the perfect yoga routine tailored to your unique needs.</p>
+        </div>
+    
+        <div class="offer">
+            <h6>4. Healthy Living Resources</h6>
+            <p class="sub-pt">Dive into a treasure trove of articles, videos, and expert advice on nutrition, fitness, and overall well-being. We firmly believe that a healthy lifestyle is a fundamental pillar of holistic wellness, and we're here to guide you on this transformative journey.</p>
+        </div>
+    </section>
+    
+    </section>
+
+    <!-- FAQ Section starts here -->
+    
+
+    <!-- Footer starts here -->
+    <section>
+      <footer>
+        <hr class="footer-divider"/>
+        <div class="footer-row">
+          <div class="footer-col-first">
+            <h2>SoulQuoτient  </h2>
+            <p>Your Companion to Cultivate a Regular</p>
+            <p>and Nurturing Wellness Practice.</p>
+            <a href="https://www.buymeacoffee.com/kaurharmehh" class="buyMeCoffee-btn">
+              <div class="mt-5 d-flex align-items-center">
+                <img class="img-buy-coffee mr-3" src="images/buyMeCoffeeLogo.png">
+                Help us grow more
+              </div>
+            </a>
+          </div>
+          <div class="footer-col footer-col-second">
+            <h2>
+              Support
+              <div class="underline"><span></span></div>
+            </h2>
+            <!-- <p>Help center</p>
+            <a class="email-id" href="mailto:studentCommunityClub79@gmail.com">studentCommunityClub79@gmail.com</a> -->
+            <p class="footer-icon-contact mt-4">Contact us at -</p>
+            <div class="social-icons">
+              <!-- change the link for a facebook id of one of us -->
+              <a href="mailto:kaurharmehar9717@gmail.com">
+                <i class="fa fa-envelope"></i>
+              </a>
+
+              <!-- change to insta of one of us  -->
+              <a href="https://www.instagram.com/balkar__sidhu_/"
+                ><i class="fa fa-instagram"></i
+              ></a>
+
+              <!-- change to twitter of one of us  -->
+              <a href="https://twitter.com/DilpreetS2002"
+                ><i class="fa fa-twitter"></i
+              ></a>
+
+              <!-- change to linkedin of one of us -->
+              <a href="https://www.linkedin.com/in/gurveenmadaan/"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col footer-col-third">
+            <h2>
+              Product
+              <div class="underline"><span></span></div>
+            </h2>
+            <ul>
+              <li><a href="/meetingroom">Meeting Room</a></li>
+              <li><a href="https://discord.gg/ZkHXnxhda7" target="_blank">Discord Server</a></li>
+              <li><a href="/wellness">Wellness Statistics</a></li>
+            </ul>
+          </div>
+          <div class="footer-col-fourth">
+            <div class="btn-container center">
+              <a
+                href="/subscribe"
+                class="button-primary button-all"
+                type="button"
+                style="color: white"
+                >Join Us</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="footer-row2">
+          <div class="footer-col">
+            <p>2023SoulQuoτient Inc. Copyright and All rights reserved.</p>
+          </div>
+          <div class="footer-col">
+            <p>Terms and Conditions . Privacy Policy</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </div>
     <!-- Custom JS -->
     <script src="js/faq.js"></script>
     <script src="js/main.js"></script>
     <script src="js/index.js"></script>
 
     <!-- BOOTSTRAP JS CDN LINK GOES HERE -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-3z02r5Jz1qRLBA15A7SYQZaBifKA0AqPOibDXe3u3h/RoDJAY9U1meXp8Wx0bcb/" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyCEzZ5/5qRTB8+uEuZsJF4l7D3HdrtmOS" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
   </body>
 </html>
