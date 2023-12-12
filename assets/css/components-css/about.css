@@ -9,9 +9,9 @@
   font-family: var(--font-opensans);
   width: 75%;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 7rem;
   text-align: center;
-  /* padding-top: 10em; */
+  
 }
 
 .facilities div.about {
@@ -24,7 +24,7 @@
   box-shadow: rgb(111, 111, 111) 0 8px 8px 0;
   font-weight: 500;
   font-family: Arial, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
-  transition: all 0.3s ease-in-out; /* Added transition */
+  transition: all 0.3s ease-in-out; 
 }
 
 .facilities-row .mt-1 {
@@ -47,7 +47,7 @@
   width: fit-content;
   word-break: break-word;
   border: 0;
-  transition: background 0.3s ease-in-out, color 0.3s ease-in-out; /* Added transition */
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out; 
 }
 
 .facilities-row .mt-1:hover {
@@ -58,19 +58,19 @@
   margin-top: 3em;
   color: var(--charcoal-gray);
   font-family: var(--font-roboto);
-  transition: color 0.3s ease-in-out; /* Added transition */
-}
+  transition: color 0.3s ease-in-out;
+} 
 
 .facilities-col p {
   margin-top: 1.5em;
-  transition: margin-top 0.3s ease-in-out; /* Added transition */
+  transition: margin-top 0.3s ease-in-out; 
 }
 
 .facilities h1 {
   font-size: 3em;
   font-family: var(--font-opensans);
   color: var(--steel-gray);
-  transition: color 0.3s ease-in-out; /* Added transition */
+  transition: color 0.3s ease-in-out; 
 }
 
 .facilities h1 span {
@@ -81,7 +81,7 @@
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
-  transition: margin-top 0.3s ease-in-out; /* Added transition */
+  transition: margin-top 0.3s ease-in-out; 
 }
 
 .facilities-col {
@@ -89,7 +89,7 @@
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: center;
-  transition: margin-top 0.3s ease-in-out; /* Added transition */
+  transition: margin-top 0.3s ease-in-out; 
 }
 
 .facilities-col text-center img :hover {
@@ -97,10 +97,9 @@
   -moz-box-shadow: 0px 10px 5px #000000;
   -webkit-box-shadow: 0px 10px 5px #000000;
   cursor: pointer;
-  box-shadow: 10px 10px 5px var(--charcoal-gray); /* Updated color */
-  transition: all 0.3s ease-in-out; /* Added transition */
-  transform: scale(1.1); /* Scale on hover */
-    
+  box-shadow: 10px 10px 5px var(--charcoal-gray);
+  transition: all 0.3s ease-in-out; 
+  transform: scale(1.1); 
 }
 
 .facilities-col img {
@@ -129,20 +128,21 @@
   color: var(--steel-gray);
   border-bottom: 1px dashed var(--steel-gray);
   padding: 0.8em;
-  transition: all 0.3s ease-in-out; /* Added transition */
+  transition: all 0.3s ease-in-out; 
 }
 
 .facilities-col a:hover {
   color: var(--slate-gray);
 }
 
-@media(max-width: 700px) {
+@media(max-width: 1000px) {
   .facilities {
     padding-top: 6em;
+    margin-top: 4rem;
   }
 
   .facilities-row {
     flex-direction: column;
-    transition: margin-top 0.3s ease-in-out; /* Added transition */
+    transition: margin-top 0.3s ease-in-out; 
   }
 }
