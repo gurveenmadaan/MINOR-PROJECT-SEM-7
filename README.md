@@ -1,4 +1,5 @@
-#**Soul Quotient - Health and Lifestyle Wellness Website**
+#Soul Quotient 
+**Health and Lifestyle Wellness Website**
 
 **Problem Overview:**
 The Soul Quotient project aims to develop a sophisticated and user-centric Health and Lifestyle Wellness Website, addressing diverse facets of individual well-being. The website will offer personalized health recommendations, fitness plans, lifestyle suggestions, and mental wellness support. The platform will integrate intelligent algorithms, user profiling, fitness tracking, and goal-setting features, fostering a community-centric environment with educational resources.
