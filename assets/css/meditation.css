@@ -11,7 +11,7 @@ body {
 
 .heading{
     text-align: center;
-    /* left:30rem;  */
+    
 }
 
 .image-meditation{
@@ -22,17 +22,17 @@ body {
 }
   
 .blog-content {
-  background-color: #d4f5e3; /* Light Greenish Shade for the Card */
+  background-color: #d4f5e3; 
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin: 5rem;
-  transition: transform 0.3s ease; /* Add transition for smooth effect */
+  transition: transform 0.3s ease; 
 }
 
 .blog-content:hover {
-  transform: scale(1.05); /* Enlarge the card on hover */
+  transform: scale(1.05); 
 }
 
 .blog-content h3 {
@@ -44,7 +44,7 @@ body {
 }
 
 .blog-content a {
-  /* color: #007bff; */
+  
   text-decoration: none;
 }
 
@@ -53,43 +53,33 @@ body {
 }
 
 #nav-background{
-  background-color: #eafaf1; /* Light Green */
+  background-color: #eafaf1; 
 }
 
-
-
-/* Add a media query for max-width: 700px */
 @media (max-width: 1000px) {
   .main-container-studyroom {
-    margin: 1rem; /* Add some margin for spacing on smaller screens */
+    margin: 1rem; 
   }
 
   .text-container-wellnessroom {
-    margin: 1rem; /* Add some margin for spacing on smaller screens */
+    margin: 1rem; 
   }
 }
 
-/* Existing styles */
 
-.main-container-studyroom {
-  flex-direction: row; /* Default direction is row */
-}
-
-.text-container-wellnessroom {
-  width: 50%; /* Adjust the width of the text container */
-}
-
-
-/* Add a media query for max-width: 1000px to switch to a column layout */
 @media (max-width: 1000px) {
   .main-container-studyroom {
-    flex-direction: column; /* Change direction to column on smaller screens */
-    align-items: center; /* Center items in the column */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .text-container-wellnessroom,
   .image-meditation {
-    width: 100%; /* Make both text and image take up full width in column layout */
-    margin: 1rem auto; /* Adjust margin for centering */
+    width: 100%; 
+    margin: 1rem auto; 
+  }
+
+  .img-manis{
+    display: none;
   }
 }
