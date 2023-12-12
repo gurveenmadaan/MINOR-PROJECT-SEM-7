@@ -1,5 +1,5 @@
 body {
-  background-color: #eafaf1; /* Light Green */
+  background-color: #eafaf1; 
 }
 
 
@@ -54,4 +54,42 @@ body {
 
 #nav-background{
   background-color: #eafaf1; /* Light Green */
+}
+
+
+
+/* Add a media query for max-width: 700px */
+@media (max-width: 1000px) {
+  .main-container-studyroom {
+    margin: 1rem; /* Add some margin for spacing on smaller screens */
+  }
+
+  .text-container-wellnessroom {
+    margin: 1rem; /* Add some margin for spacing on smaller screens */
+  }
+}
+
+/* Existing styles */
+
+.main-container-studyroom {
+  flex-direction: row; /* Default direction is row */
+}
+
+.text-container-wellnessroom {
+  width: 50%; /* Adjust the width of the text container */
+}
+
+
+/* Add a media query for max-width: 1000px to switch to a column layout */
+@media (max-width: 1000px) {
+  .main-container-studyroom {
+    flex-direction: column; /* Change direction to column on smaller screens */
+    align-items: center; /* Center items in the column */
+  }
+
+  .text-container-wellnessroom,
+  .image-meditation {
+    width: 100%; /* Make both text and image take up full width in column layout */
+    margin: 1rem auto; /* Adjust margin for centering */
+  }
 }

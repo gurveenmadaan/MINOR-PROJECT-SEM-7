@@ -92,7 +92,7 @@
   transition: margin-top 0.3s ease-in-out; 
 }
 
-.facilities-col text-center img :hover {
+.facilities-col .text-center img :hover {
   box-shadow: 10px 10px 5px #000000;
   -moz-box-shadow: 0px 10px 5px #000000;
   -webkit-box-shadow: 0px 10px 5px #000000;

@@ -20,3 +20,20 @@
   width:50%; 
   padding: 20px; 
 }
+
+@media (max-width: 1000px) {
+  .yoga-top-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-image {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .right-content {
+    width: 100%;
+    padding: 20px;
+  }
+}

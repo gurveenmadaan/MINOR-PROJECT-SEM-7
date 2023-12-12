@@ -25,6 +25,14 @@
     margin: 5rem; 
 }
 
+.meetroom-head {
+    background: linear-gradient(135deg, #a2d149, #f8dc63, #7cbcff); /* Adjust the color stops and angles as needed */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    color: #fff; /* Set text color to white for better contrast */
+  }
+  
 
 @media (max-width: 1000px) {
     .facilities-row {
